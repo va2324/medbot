@@ -10,7 +10,7 @@ Make sure you have Python installed on your system. Enter the command below to c
 
 For best results, create a Python virtual environment to run the program: 
   1. Create a virtual environment with the command `python -m venv my-environment-name`
-  2. Activate the virtual environment `virtual-environment-name\Scripts\activate`
+  2. Activate the virtual environment `my-environment-name\Scripts\activate`
   3. Install all required packages and run the project in the virtual environment.
   4. Deactivate the virtual environment with the command `deactivate`
 
