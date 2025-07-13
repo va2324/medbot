@@ -4,6 +4,9 @@ This is a basic AI application built on top of the gpt-4o-mini LLM from OpenAI u
 ## How to Run
 Download Visual Studio Code from this website: https://code.visualstudio.com/
 
+Clone the project
+`git clone https://github.com/va2324/medbot`
+
 Make sure you have Python installed on your system. Enter the command below to check if Python is already installed. If not, download Python from this website: https://www.python.org/
 
 `python --version`
@@ -19,14 +22,12 @@ Install the following packages using PIP (Python's package manager)
 pip install langchain
 pip install langchain-openai
 pip install streamlit
+pip install python-dotenv
 ```
 Secure an OpenAI API Key by creating an account on OpenAI's website: https://openai.com/
 
 When your account is created, navigate to the 'API keys' section of the dashboard and click "Create new secret key" to generate an API key. 
-You will need to input this key into the application to run the LLM. 
-
-Clone the project
-`git clone https://github.com/va2324/medbot`
+Inside the project, create a new file '.env' and write "OPENAI_API_KEY = your_api_key".
 
 Run the project with the following command
 `streamlit run medic.py`
