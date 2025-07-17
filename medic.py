@@ -34,7 +34,7 @@ toolkit = [
     ),
     Tool(
         name="chain",
-        description="Process user input and return output",
+        description="Provide diagnosis and recommend treatments for medical symptoms",
         func=chain.invoke
     )
 ]
