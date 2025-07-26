@@ -25,8 +25,8 @@ For best results, create a Python virtual environment to run the program:
 Install the following packages using PIP (Python's package manager)
 ```
 pip install langchain
-pip install langchain-community
 pip install langchain-openai
+pip install langchain-google-community
 pip install openai
 pip install google-api-python-client
 pip install streamlit
