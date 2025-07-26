@@ -28,6 +28,7 @@ pip install langchain
 pip install langchain-community
 pip install langchain-openai
 pip install openai
+pip install google-api-python-client
 pip install streamlit
 pip install python-dotenv
 ```
