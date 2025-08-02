@@ -2,7 +2,7 @@ import time
 import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
-from langchain_community.utilities import GoogleSearchAPIWrapper
+from langchain_google_community import GoogleSearchAPIWrapper
 from langchain.agents import Tool, AgentType, initialize_agent
 from dotenv import load_dotenv
 
@@ -64,4 +64,5 @@ with st.form("form"):
             st.warning("Please enter your symptoms to generate a diagnosis!", icon="⚠")
         else:
             with st.spinner("Diagnosing symptoms"):
+
                 diagnose(symptoms)
