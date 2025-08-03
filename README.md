@@ -1,5 +1,5 @@
 # MedBot
-This is a basic AI application built on top of the gpt-4o-mini LLM from OpenAI using the Langchain framework, with a frontend created from Streamlit. This application is an AI medical assistant that can generate diagnoses of medical symptoms provided by users and recommend possible treatments. It is integrated with Google Search to provide accurate information from reliable medical websites. 
+This is a basic AI application built on top of the GPT-4o mini LLM from OpenAI using the Langchain framework, with a frontend created from Streamlit. This application is an AI medical assistant that can generate diagnoses of medical symptoms provided by users and recommend possible treatments. It is integrated with Google Search to provide accurate information from reliable medical websites. 
 
 ## How to Run
 Download Visual Studio Code from this website: https://code.visualstudio.com/
